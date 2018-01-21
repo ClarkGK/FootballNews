@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/NewsBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:allowUndo="true"
+        android:gravity="center_horizontal"
+        android:text="НОВОСТИ ФУТБОЛА" />
+
+    <Button
+        android:id="@+id/CheckKapBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="ПРОВЕРКА КАПЕРОВ" />
+
+    <Button
+        android:id="@+id/productBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="ТОВАРЫ" />
+
+    <Button
+        android:id="@+id/CancelAdvBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="УБРАТЬ РЕКЛАМУ" />
+
+    <Button
+        android:id="@+id/ChatBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="ЧАТ" />
+</LinearLayout>
